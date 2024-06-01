@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+     
+    <script src="https://kit.fontawesome.com/1ec7d98997.js" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+</head>
+<body >
+    <div id="container">
+        <div id="header">
+            <img src="images/Flipkart-logo.png">
+            
+            <div class="search">
+                  <input type="text" placeholder="Search for Products, Brand and more.">
+            </div>
+        
+           <div class="icons">
+
+           
+            <div class="login">
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Login</a>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">Cart</a>
+            </div>
+            <div class="shop">
+                <i class="fa-solid fa-shop"></i>
+                <a href="#">Become a Seller</a>     
+            </div>
+           
+           </div>
+
+           <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+           </div>
+        
+        </div> 
+        
+        <div id="category">
+            <div class="container">
+                <div>
+                <img src="images/grocery.webp" alt="">
+                <h4>Grocery</h4>
+                </div>
+
+                <div>
+                    <img src="images/mobiles.webp" alt="">
+                <h4>Mobiles</h4>
+                </div>
+
+                
+                <div>
+                    <img src="images/fashion2.png" alt="">
+                <h4>Fashion</h4>
+                </div>
+                
+                <div>
+                <img src="images/electronics.png" alt="">
+                <h4>Electronics</h4>
+                </div>
+
+                <div>
+                <img src="images/furniture.png" alt="">
+                <h4>Home & Furniture</h4>
+                </div>
+
+                <div>
+                <img src="images/appliances.webp" alt="">
+                <h4>Appliances</h4>
+            </div>
+
+            <div>
+                <img src="images/travel.webp" alt="">
+                <h4>Travel</h4>
+            </div>
+
+            <div>
+                <img src="images/toys.webp" alt="">
+                <h4>Beauty & Toys</h4>
+            </div>
+            
+            <div>
+                <img src="images/bullet.png" alt="">
+                <h4>Two Wheelers</h4>
+            </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <img src="images/slide1.webp" class="slide" alt="#">
+            <img src="images/slide2.webp" class="slide" alt="">
+            <img src="images/slide3.webp" class="slide" alt="">
+            <img src="images/slide4.webp" class="slide" alt="">
+            <img src="images/slide5.webp" class="slide" alt="">
+            <img src="images/slide6.webp" class="slide" alt="">
+            <img src="images/slide7.webp" class="slide" alt=""> 
+            
+            <button class="btn2" onclick="goPrev()"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="btn1" onclick="goNext()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+     
+        
+<div id="block1">
+    <div class="heading">
+        <h3>Best of Electronics</h3>
+    </div>
+    <div class="pic-container">
+        <div class="box-container">
+
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div">
+                            <img src="images/cameras.webp" alt=""> 
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Cameras</div>
+                                <div class="prod-price">From ₹3,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/keyboard.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Keyboards</div>
+                                <div class="prod-price">From ₹299</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/printer2.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Top Printers</div>
+                                <div class="prod-price">from ₹3,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/phones.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Flagship Phones</div>
+                                <div class="prod-price">From ₹89,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/monitor.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Monitors</div>
+                                <div class="prod-price">From ₹9,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/trimmer.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Trimmers</div>
+                                <div class="prod-price">From ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/projectors.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Projectors</div>
+                                <div class="prod-price">From ₹9,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+    </div>
+</div>
+
+
+
+
+<!-- secpnd block -->
+<div id="block1">
+    <div class="heading">
+        <h3>Beauty , Food , Toys & more </h3>
+    </div>
+    <div class="pic-container">
+        <div class="box-container">
+
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div">
+                            <img src="images/cycle.webp" alt=""> 
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Cycles</div>
+                                <div class="prod-price">From ₹1,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/stationary.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Stationary</div>
+                                <div class="prod-price">From ₹99</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/butter.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Peanut Butter</div>
+                                <div class="prod-price">from ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/dryfruit.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Dry Fruits</div>
+                                <div class="prod-price">From ₹399</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/gym.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Gym Equipments</div>
+                                <div class="prod-price">From ₹999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/microphones.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Microphones</div>
+                                <div class="prod-price">From ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/toys.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Toys</div>
+                                <div class="prod-price">From ₹999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+    </div>
+</div>
+
+<!-- third column -->
+<div id="block3">
+    <div class="in-block">
+        <div class="grid-block">
+            <div class="inner-grid-block">
+                <div class="grid-box">
+                    <div class="inner-grid-box">
+                        <div class="grid-img-div">
+                            <img src="images/airpods.webp" alt="">
+                        </div>
+                        <div class="grid-prod-info">
+                            <div class="grid-prod-name">Appe Airpods</div>
+                            <div class="grid-prod-price">Min. 50% off</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-box">
+                    <div class="inner-grid-box">
+                        <div class="grid-img-div">
+                            <img src="images/steering.webp" alt="">
+                        </div>
+                        <div class="grid-prod-info">
+                            <div class="grid-prod-name">Gaming Gadgets</div>
+                            <div class="grid-prod-price">Min. 50% off</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-box">
+                    <div class="inner-grid-box">
+                        <div class="grid-img-div">
+                            <img src="images/lens.webp" alt="">
+                        </div>
+                        <div class="grid-prod-info">
+                            <div class="grid-prod-name">Mobile Lens</div>
+                            <div class="grid-prod-price">Min. 50% off</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-box">
+                    <div class="inner-grid-box">
+                        <div class="grid-img-div">
+                            <img src="images/actiontoys.webp" alt="">
+                        </div>
+                        <div class="grid-prod-info">
+                            <div class="grid-prod-name">Exciting Toys</div>
+                            <div class="grid-prod-price">Min. 50% off</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="image-block">
+            <img src="images/iphone11.webp" alt="">
+        </div>
+</div>
+    </div>
+
+<!-- third block -->
+
+        
+<div id="block1">
+    <div class="heading">
+        <h3>Best of Electronics</h3>
+    </div>
+    <div class="pic-container">
+        <div class="box-container">
+
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div">
+                            <img src="images/cameras.webp" alt=""> 
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Cameras</div>
+                                <div class="prod-price">From ₹3,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/keyboard.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Keyboards</div>
+                                <div class="prod-price">From ₹299</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/printer2.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Top Printers</div>
+                                <div class="prod-price">from ₹3,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/phones.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Flagship Phones</div>
+                                <div class="prod-price">From ₹89,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/monitor.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Monitors</div>
+                                <div class="prod-price">From ₹9,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/trimmer.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Trimmers</div>
+                                <div class="prod-price">From ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/projectors.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Projectors</div>
+                                <div class="prod-price">From ₹9,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+    </div>
+</div>
+
+
+<!-- fouth block -->
+
+
+<!-- secpnd block -->
+<div id="block1">
+    <div class="heading">
+        <h3>Beauty , Food , Toys & more </h3>
+    </div>
+    <div class="pic-container">
+        <div class="box-container">
+
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div">
+                            <img src="images/cycle.webp" alt=""> 
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Cycles</div>
+                                <div class="prod-price">From ₹1,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/stationary.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Stationary</div>
+                                <div class="prod-price">From ₹99</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/butter.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Peanut Butter</div>
+                                <div class="prod-price">from ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/dryfruit.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Dry Fruits</div>
+                                <div class="prod-price">From ₹399</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/gym.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Gym Equipments</div>
+                                <div class="prod-price">From ₹999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/microphones.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Microphones</div>
+                                <div class="prod-price">From ₹499</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box"><div class="inner-box">
+                    <div class="actual-box">
+                        <div class="img-div"> 
+                            <img src="images/toys.webp" alt="">
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-name">Toys</div>
+                                <div class="prod-price">From ₹999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+    </div>
+</div>
+
+
+
+    <!-- below content -->
+    <div class="content-container">
+        <div class="inner-content-container">
+            <h4>Top Stories : Brand Directory</h4>
+        </div>
+        <div class="category1">
+            <p><span>Most searched for on Flipkart:</span>Whether it is for the festive season, a special occasion or to adorn your studio space, the demand for these home decor accents sees upward trends from time to time. These are the most profitable products to sell online, especially during festive sales.Security is a top concern for many Indians, hence selling locks and latches can be an ideal category to start a business. These are the most profitable products to sell online, essential for securing homes and offices, which is why they have high demand.</p>
+        </div>
+        <div class="category1">
+            <p><span>Mobiles:</span>Functional, essential and elegant home furnishing items are perfect for entering the market and growing business. These pieces are regularly updated in Indian homes, so there is continuous demand, making them one of the most profitable things to sell.</p>
+        </div>
+        <div class="category1">
+            <p><span>Cameras:</span>From DIY to statement pieces, there has been a massive shift towards home decor in India. Shoppers are looking for aesthetically pleasing items, such as paintings, shelves, photo frames and more, to beautify their homes. This creates a golden opportunity for sellers to fulfil the need and yield higher returns on these most profitable products to sell online</p>
+        </div>
+        <div class="category1">
+            <p><span>TVS:</span>Security is a top concern for many Indians, hence selling locks and latches can be an ideal category to start a business. These are the most profitable products to sell online, essential for securing homes and offices, which is why they have high demand.</p>
+        </div>
+        <div class="category1">
+            <p><span>Clothing:</span>Many home and kitchen essentials are gaining popularity and growth, from healthy living to proper storage organisation. Wardrobe organisers, bottles and spice containers are some of the most profitable products to sell online under this category..</p>
+        </div>
+        <div class="category1">
+            <p><span>Footwear:</span>Fashion apparel, be it jeans and T-shirts, dresses or co-ord sets, there is a huge demand for stylish and comfortable clothing. As a seller, these are high margin products to sell online that you can begin your journey with. From basic to trendy fashion items, there is a wide range of varieties to offer and draw customers.</p>
+        </div>
+        <div class="category1">
+            <p><span>Furniture:</span>These are another set of most profitable products to sell online that are experiencing a surge in demand. From kids to adults and gear to non-gear, there is a broad customer base to reach and make a name in this market. Cycle accessories, such as helmets, lights, locks, bells, etc., can also be a category to focus on.ndia experiences hot and humid weather most of the year. This has taken the selling rate of coolers and fans by storm, making them the most profitable products to sell online.</p>
+        </div>
+        <div class="category1">
+            <p><span>Groceries:</span>Whether it is for the festive season, a special occasion or to adorn your studio space, the demand for these home decor accents sees upward trends from time to time. These are the most profitable products to sell online, especially during festive sales.Security is a top concern for many Indians, hence selling locks and latches can be an ideal category to start a business. These are the most profitable products to sell online, essential for securing homes and offices, which is why they have high demand.</p>
+        </div>
+        <div class="category1">
+            <p><span>Large Appliances:</span>From homes to workplaces, these are the most common power backup solutions in India. This allows sellers to showcase their products on e-commerce platforms and draw more customers to buy inverter batteries to safeguard their spaces against power outages.ndia experiences hot and humid weather most of the year. This has taken the selling rate of coolers and fans by storm, making them the most profitable products to sell online.</p>
+        </div>
+        <div class="category1">
+            <p><span>Automobiles:</span>From cutting and chopping to grinding and blending, this everyday kitchen gadget has become essential in Indian households. This makes hand blenders a smart choice for new sellers. Besides hand blenders, many other kitchen gadgets and accessories, such as toasters, strainers, etc., are also a part of this list of the most profitable products to sell online</p>
+        </div>
+    </div>
+    <!-- footer satrts here -->
+    <footer class="footer">
+        <div class="upper-footer">
+            <div class="left-footer">
+                <div class="about">
+                    <div class="upper-about">
+                        <h4>ABOUT</h4>
+                    </div>
+                    <div class="lower-about">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Flipkart Stories</li>
+                            <li>Press</li>
+                            <li>Corporative Information</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="upper-company">
+                        <h4>GROUP COMPANIES</h4>
+                    </div>
+                    <div class="lower-company">
+                        <ul>
+                            <li>Myntra</li>
+                            <li>Shopsy</li>
+                            <li>Cleartip</li>
+                            <li>Flipkart Wholesale</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="help">
+                    <div class="upper-help">
+                        <h4>HELP</h4>
+                    </div>
+                    <div class="lower-help">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Flipkart Stories</li>
+                            <li>Press</li>
+                            <li>Corporative Information</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="consumer">
+                    <div class="upper-consumer">
+                        <h4>CONSUMER POLICY</h4>
+                    </div>
+                    <div class="lower-consumer">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Flipkart Stories</li>
+                            <li>Press</li>
+                            <li>Corporative Information</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="right-footer">
+                <div class="mail">
+                    <div class="upper-mail">
+                        <h4>MAIL US:</h4>
+                    </div>
+                    <div class="lower-mail">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Flipkart Stories</li>
+                            <li>Press</li>
+                            <li>Corporative Information</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="address"> <div class="upper-address">
+                    <h4>OFFICE ADDRESS:</h4>
+                </div>
+                <div class="lower-address">
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Flipkart Stories</li>
+                        <li>Press</li>
+                        <li>Corporative Information</li>
+                    </ul>
+                </div></div>
+            </div>
+        </div>
+        <hr>
+        <div class="lower-footer">
+            <p>@ 2007-2024 Flipkart.com. Made with ❤️ </p>
+        </div>
+    </footer>
+    
+</body>
+<script src="main.js"></script>
+</html>
